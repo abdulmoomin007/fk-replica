@@ -5,17 +5,26 @@ body{
 }
 
 .header {
-    margin: 0% 10%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #cff1ef;
+    z-index: 1;
+}
+
+.header-two {
+    background-color: #fbcffc;
 }
 
 .top-header {
-    background-color: #cff1ef;
     padding: 1%;
+    margin: 0% 10%;
 }
 
 .bottom-header {
     background-color: #fbcffc;
     text-align: center;
+    margin: 0% 10%;
 }
 
 .logo-img {
@@ -72,4 +81,8 @@ i {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.body {
+    padding-bottom: 2000px;
 }
