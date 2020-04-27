@@ -21,3 +21,16 @@ document.getElementById("baby").addEventListener("mouseover",function(){
 document.getElementById("sports").addEventListener("mouseover",function(){
     console.log("Sports, Books and More Clicked")
 })
+
+document.getElementById("login").addEventListener("click",function(){
+    console.log("login clicked")
+})
+
+document.getElementById("cart").addEventListener("click",function(){
+    console.log("cart clicked")
+})
+
+document.getElementById("search").addEventListener("click",function(){
+    console.log("search icon clicked")
+    console.log(document.getElementsByClassName("search-bar")[0].value)
+})

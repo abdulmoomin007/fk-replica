@@ -13,7 +13,7 @@ body{
 }
 
 .header-two {
-    background-color: #fbcffc;
+    background-color: #27496d;
 }
 
 .top-header {
@@ -22,7 +22,7 @@ body{
 }
 
 .bottom-header {
-    background-color: #fbcffc;
+    color: white;
     text-align: center;
     margin: 0% 10%;
 }
