@@ -44,8 +44,10 @@ body{
 
 .search-icon {
     position: absolute;
-    padding-top: 1%;
+    margin-top: 1%;
     display: inline-block;
+    color: #27496d;
+    /* border: 1px solid #27496d; */
 }
 
 .cart-text {
@@ -58,6 +60,7 @@ body{
     position: relative;
     padding-top: 1%;
     float: right;
+    color: #27496d;
 }
 
 .cart-icon:hover {
@@ -70,7 +73,8 @@ body{
 
 .login-btn {
     float: right;   
-    margin: 1% 0% 0% 2%;
+    margin: 1% 1% 0% 2%;
+
 }
 
 i {
