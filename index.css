@@ -88,3 +88,14 @@ i {
 .body {
     padding-bottom: 2000px;
 }
+
+.fa-copyright {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+}
